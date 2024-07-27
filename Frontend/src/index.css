@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-radial-grid {
+    background-image: radial-gradient(rgb(209, 198, 74) 2px, transparent 0);
+    background-size: 40px 40px;
+    background-attachment: fixed;
+}
+
+.my-config {
+    --uc-primary-oklch-dark: 97% 0 0;
+    --uc-primary-oklch-light: 10% 0 0;
+  }
