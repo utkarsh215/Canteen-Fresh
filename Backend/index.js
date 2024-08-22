@@ -3,7 +3,7 @@ import http from 'http';
 import 'dotenv/config';
 import pg from "pg";
 import cors from "cors";
-import bcrypt from "bcrypt"
+import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken"
 import passport from "passport";
 import { Strategy as JwtStrategy } from 'passport-jwt';
